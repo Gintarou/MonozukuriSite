@@ -16,7 +16,7 @@ ul li {
 
 #home_first_heading {
   font-weight: 300;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #home_details_heading {
@@ -48,7 +48,7 @@ ul li {
 }
 
 #home_first_txt {
-  font-size: 12px;
+  font-size: 15px;
   padding-top: 10px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -56,9 +56,10 @@ ul li {
 
 #home_details_heading {
   padding: 50px 0 40px;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 200;
   letter-spacing: 1.5px;
+  font-family: 'Noto sans JP', sans-serif;
 }
 
 #home_details p {
@@ -68,7 +69,7 @@ ul li {
 #home_details p,
 #home_details li {
   text-align: left;
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 1.5px;
   font-weight: 300;
   line-height: 40px;
