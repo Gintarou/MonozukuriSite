@@ -16,4 +16,11 @@ jQuery(function($) {
     }, 250)
   });
 
+  $('#program_heading').on('inview', function() {
+    setTimeout(() => {
+      $(this).addClass('appear');
+      $('.box').addClass('appear');
+    }, 250);
+  });
+
 });
