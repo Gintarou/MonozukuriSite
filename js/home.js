@@ -11,14 +11,14 @@ jQuery(function($) {
 
   $('#home_details_heading').on('inview', function(){
     setTimeout(function() {
-      $(this).addClass('appear');
+      $('#home_details_heading').addClass('appear');
       $('.home_details_txt').addClass('appear');
     }, 250)
   });
 
   $('#program_heading').on('inview', function() {
     setTimeout(function() {
-      $(this).addClass('appear');
+      $('#program_heading').addClass('appear');
       $('.box').addClass('appear');
     }, 250);
   });
