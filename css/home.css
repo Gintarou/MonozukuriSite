@@ -103,6 +103,15 @@ ul li {
   transition: 1s;
 }
 
+.box > a {
+  font-family: "Noto sans JP", sans-serif;
+  transition: 0.5s;
+}
+
+.box > a:hover {
+  opacity: 0.6;
+}
+
 /* medium screen */
 @media (min-width: 560px) {
   #pc_details_txt {
@@ -172,7 +181,16 @@ ul li {
   .box {
     width: 250px;
     height: 250px;
-    background: pink;
+    background: #ddd;
+    line-height: 250px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: lighter;
+  }
+
+  .box > a {
+    display: block;
+
   }
 
 }
