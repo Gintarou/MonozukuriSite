@@ -1,8 +1,6 @@
-'use strict';
-
-let ham = document.getElementById('ham');
-let ham_menu_wrapper = document.getElementById('ham_menu_wrapper');
-let header = document.querySelector('header');
+var ham = document.getElementById('ham');
+var ham_menu_wrapper = document.getElementById('ham_menu_wrapper');
+var header = document.querySelector('header');
 
 ham.addEventListener('click', function() {
   ham.classList.toggle('clicked');
