@@ -113,7 +113,9 @@ ul li {
   border-bottom: 1 solid #222;
 }
 
-.box_wrp {
+.box {
+  font-family: "Noto sans JP", sans-serif;
+  font-weight: 300;
 }
 
 .box > a {
