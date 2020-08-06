@@ -10,14 +10,14 @@ jQuery(function($) {
   });
 
   $('#home_details_heading').on('inview', function(){
-    setTimeout(() => {
+    setTimeout(function() {
       $(this).addClass('appear');
       $('.home_details_txt').addClass('appear');
     }, 250)
   });
 
   $('#program_heading').on('inview', function() {
-    setTimeout(() => {
+    setTimeout(function() {
       $(this).addClass('appear');
       $('.box').addClass('appear');
     }, 250);
