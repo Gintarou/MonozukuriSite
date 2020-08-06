@@ -83,7 +83,8 @@ ul li {
 #home_details li {
   list-style-type: circle;
   list-style-position: inside;
-  text-indent: 1em;
+  text-indent: -1em !important;
+  padding-left: 1em;
 }
 
 #home_details_wrp {
@@ -107,6 +108,7 @@ ul li {
 .box > a {
   font-family: "Noto sans JP", sans-serif;
   transition: 0.5s;
+  font-weight: 300;
 }
 
 .box > a:hover {
@@ -191,7 +193,6 @@ ul li {
 
   .box > a {
     display: block;
-
   }
 
 }
