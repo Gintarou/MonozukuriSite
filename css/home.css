@@ -82,7 +82,8 @@ ul li {
 
 #home_details li {
   list-style-type: circle;
-  margin-left: 0.5em;
+  list-style-position: inside;
+  text-indent: 1em;
 }
 
 #home_details_wrp {
