@@ -11,6 +11,7 @@ ul li {
 #home_details {
   background-size: cover;
   background-position: center;
+  overflow: scroll;
 }
 
 
