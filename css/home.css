@@ -104,6 +104,16 @@ ul li {
 .box {
   opacity: 0;
   transition: 1s;
+  width: 200px;
+  height: 60px;
+  margin: 20px auto;
+  line-height: 60px;
+  background-color: #ddd;
+  border-top: 1 solid #222;
+  border-bottom: 1 solid #222;
+}
+
+.box_wrp {
 }
 
 .box > a {
@@ -190,6 +200,7 @@ ul li {
     font-size: 16px;
     text-align: center;
     font-weight: lighter;
+    border: none;
   }
 
   .box > a {
